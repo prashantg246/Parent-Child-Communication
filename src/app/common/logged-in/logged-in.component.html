@@ -1,0 +1,7 @@
+<h2>Logged In Users</h2>
+
+<div *ngFor="let user of users; let i = index">
+  <span>{{ user.userId }}</span>
+  <div>Status - {{ user.status }}</div>
+  <button (click)="blockUser(i)">Block User</button>
+</div>
