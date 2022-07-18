@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { LoginComponent } from './common/login/login.component';
 import { LoggedInComponent } from './common/logged-in/logged-in.component';
 import { LoggerService } from './Services/logger.service';
+import { UserStatusComponent } from './common/logged-in/user-status/user-status.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -15,6 +16,7 @@ import { LoggerService } from './Services/logger.service';
     HelloComponent,
     LoginComponent,
     LoggedInComponent,
+    UserStatusComponent,
   ],
   bootstrap: [AppComponent],
   // providers: [LoggerService]
